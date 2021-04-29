@@ -1,0 +1,35 @@
+#container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+#gallery {
+width:900px;
+margin: 0 auto;
+}
+img {
+    width:290px;
+}  
+  #gallery{
+  display: flex;
+  flex-wrap: wrap;
+}
+#gallery img{
+  padding: 2px;
+  width: calc(100% / 3);
+  flex-grow: 1; 
+}
+#gallery .image span{
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+#gallery  img{
+  width: 32%;
+  vertical-align: middle;
+  transition: all 0.3s ease;
+}
+#gallery img:hover{
+  transform: scale(1.1);
+}
+}
